@@ -1,7 +1,7 @@
 export interface Blog {
-  id: number;
+  id: number | string;
   title: string;
-  category: string[];
+  tags: string[];
   description: string;
   date: string;
   coverImage: string;
